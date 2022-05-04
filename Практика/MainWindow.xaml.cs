@@ -28,12 +28,26 @@ namespace Практика
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
+            if (text1.Text == "student")
+            {
+               
+            }
 
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            if (text1.Text == "student" && text2.Text == "student")
+            {
+                Студент студент = new Студент();
+                студент.Show();
+            }
+            if (text1.Text == "teacher" && text2.Text == "teacher")
+            {
+                teacher teach = new teacher();
+                teach.Show();
+            }
+        
         }
-    }
+}
 }

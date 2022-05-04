@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Практика"
         mc:Ignorable="d"
-        Title="Студент" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    Title="DockPanel" Height="250" Width="300">
+    <DockPanel LastChildFill="True">
+        <Button DockPanel.Dock="Top" Background="AliceBlue" Content="Верхняя кнопка" />
+        <Button DockPanel.Dock="Bottom" Background="BlanchedAlmond" Content="Нижняя кнопка" />
+        <Button DockPanel.Dock="Left" Background="Aquamarine" Content="Левая кнопка" />
+        <Button DockPanel.Dock="Right" Background="DarkGreen" Content="Правая кнопка" />
+        <Button Background="LightGreen" Content="Центр" />
+    </DockPanel>
 </Window>
