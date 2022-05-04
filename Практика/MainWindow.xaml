@@ -13,11 +13,11 @@
             <ColumnDefinition Width="3*"/>
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
-        <TextBox HorizontalAlignment="Left" Margin="77,53,0,0" TextWrapping="Wrap" Text="Авторизация " VerticalAlignment="Top" Width="196" TextAlignment="Center" Height="63" FontSize="25" BorderBrush="White"/>
         <Button Content="Вход" HorizontalAlignment="Left" Margin="106,185,0,0" VerticalAlignment="Top" Height="32" Width="138" Click="Button_Click"/>
         <TextBox x:Name="text1" HorizontalAlignment="Left" Margin="104,121,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" Width="142" Height="21"/>
         <TextBox x:Name="text2" HorizontalAlignment="Left" Margin="104,147,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" Width="142" Height="21" TextChanged="TextBox_TextChanged"/>
         <Button Content="Регистрация" HorizontalAlignment="Left" Margin="106,222,0,0" VerticalAlignment="Top" Height="32" Width="138" Click="Button_Click"/>
+        <Label Content="Авторизация" HorizontalAlignment="Left" Margin="104,77,0,0" VerticalAlignment="Top" FontSize="22"/>
 
     </Grid>
 </Window>
