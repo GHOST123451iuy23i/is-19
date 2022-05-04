@@ -10,7 +10,7 @@
         <Button DockPanel.Dock="Top" Background="AliceBlue" Content="Верхняя кнопка" />
         <Button DockPanel.Dock="Bottom" Background="BlanchedAlmond" Content="Нижняя кнопка" />
         <Button DockPanel.Dock="Left" Background="Aquamarine" Content="Левая кнопка" />
-        <Button DockPanel.Dock="Right" Background="DarkGreen" Content="Правая кнопка" />
+        <Button DockPanel.Dock="Right" Background="Red" Content="Правая кнопка" />
         <Button Background="LightGreen" Content="Центр" />
     </DockPanel>
 </Window>
