@@ -1,0 +1,23 @@
+﻿<Window x:Class="Практика.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Практика"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="301" Width="350">
+    <Grid Margin="0,0,0,-16">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="67*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox HorizontalAlignment="Left" Margin="77,53,0,0" TextWrapping="Wrap" Text="Авторизация " VerticalAlignment="Top" Width="196" TextAlignment="Center" Height="63" FontSize="25" BorderBrush="White"/>
+        <Button Content="Вход" HorizontalAlignment="Left" Margin="106,185,0,0" VerticalAlignment="Top" Height="32" Width="138" Click="Button_Click"/>
+        <TextBox HorizontalAlignment="Left" Margin="104,121,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" Width="142" Height="21"/>
+        <TextBox HorizontalAlignment="Left" Margin="104,147,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" Width="142" Height="21" TextChanged="TextBox_TextChanged"/>
+        <Button Content="Регистрация" HorizontalAlignment="Left" Margin="106,222,0,0" VerticalAlignment="Top" Height="32" Width="138" Click="Button_Click"/>
+
+    </Grid>
+</Window>
